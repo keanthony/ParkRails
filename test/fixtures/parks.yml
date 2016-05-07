@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  zip: 1
+  hours: MyString
+  restroom: false
+  jogging: false
+  playground: false
+  dogpark: false
+
+two:
+  name: MyString
+  address: MyString
+  zip: 1
+  hours: MyString
+  restroom: false
+  jogging: false
+  playground: false
+  dogpark: false

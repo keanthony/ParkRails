@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @park.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @park.address %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @park.zip %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @park.hours %>
+</p>
+
+<p>
+  <strong>Restroom:</strong>
+  <%= @park.restroom %>
+</p>
+
+<p>
+  <strong>Jogging:</strong>
+  <%= @park.jogging %>
+</p>
+
+<p>
+  <strong>Playground:</strong>
+  <%= @park.playground %>
+</p>
+
+<p>
+  <strong>Dogpark:</strong>
+  <%= @park.dogpark %>
+</p>
+
+<%= link_to 'Edit', edit_park_path(@park) %> |
+<%= link_to 'Back', parks_path %>
